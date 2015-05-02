@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@color/fragment_background">
+
+    <EditText
+        android:id="@+id/edtCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:background="@color/background"
+         >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnWiki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City Info"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>
